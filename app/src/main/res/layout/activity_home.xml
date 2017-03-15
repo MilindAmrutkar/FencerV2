@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.spottechnician.fencerv2.HomeActivity">
+
+    <Button
+        android:id="@+id/home_btn_daily_visit_report"
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/daily_visit_report_home"
+        />
+
+    <Button
+        android:id="@+id/home_btn_services"
+        android:layout_marginTop="100dp"
+        android:text="@string/services_home"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="Services"
+
+        />
+
+    <Button
+        android:id="@+id/home_btn_punch_attendance"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/punch_attendance_home"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
