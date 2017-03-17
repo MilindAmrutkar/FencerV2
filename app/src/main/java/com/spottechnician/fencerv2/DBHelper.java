@@ -87,7 +87,7 @@ public class DBHelper extends SQLiteOpenHelper {
 //8 Status
 
     public static final String TABLE_STATUS="Status";
-    public static final String COLUMN_STATUS_ID="id_customer";
+    public static final String COLUMN_STATUS_ID="id_status";
     public static final String COLUMN_STATUS_STATUS="status";
 
 //9 ATM

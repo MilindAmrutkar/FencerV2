@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spottechnician.fencerv2.TakeoverActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/takeoverActivityFormHeadingPg1TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Takeover Form Pg(1)"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/takeoverActivityServicesHeadingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Services to Takeover"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/takeoverActivityServicesListTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="list will populate here"/>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/takeoverActivityHandoverFormTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Please verify the list of ATM's"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="ATM ID 1"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="ATM ID 1"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="ATM ID 1"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="ATM ID 1"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="ATM ID 1"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/takeoverActivityHandoverAgencyTV"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Handover Agency"/>
+
+            <EditText
+                android:id="@+id/takeoverActivityHandoverAgencyET"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:hint="@string/activityhandover_type_here"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/takeoverActivityNextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

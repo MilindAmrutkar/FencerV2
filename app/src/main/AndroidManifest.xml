@@ -18,7 +18,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".ServicesActivity" />
-        <activity android:name=".HOTOActivity"></activity>
+        <activity android:name=".HOTOActivity" />
+        <activity android:name=".HandoverActivity" />
+        <activity android:name=".TakeoverActivity1" />
+        <activity android:name=".TakeoverActivity2" />
+        <activity android:name=".TakeoverActivity3" />
+        <activity android:name=".AddNewSiteActivity"></activity>
     </application>
 
 </manifest>

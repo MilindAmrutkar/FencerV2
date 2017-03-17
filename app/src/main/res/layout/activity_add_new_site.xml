@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spottechnician.fencerv2.AddNewSiteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Add Lobby"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ATM 1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/activityhandover_type_here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ATM 2"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/activityhandover_type_here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ATM 3"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/activityhandover_type_here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ATM 4"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/activityhandover_type_here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ATM 5"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/activityhandover_type_here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ATM 6"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/activityhandover_type_here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Bank name"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Customer name"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Customer Details"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Person's name"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/activityhandover_type_here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Person's Number"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/activityhandover_type_here" />
+        </LinearLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Services"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="CTHK"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="FLM"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="RNM"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="E-Bill"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/AddNewSiteActivityHandoverAgencyTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.25"
+                android:text="Handover Agency"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/AddNewSiteActivityHandoverAgencyET"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/activityhandover_type_here"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/AddNewSiteActivityNextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</ScrollView>

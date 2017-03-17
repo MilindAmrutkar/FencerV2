@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spottechnician.fencerv2.HandoverActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/handoverActivityFormHeadingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activityhandover_handover_form_heading"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/handoverActivityServicesHeadingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="@string/activityhandover_services_to_handover"
+            android:textAlignment="center"
+           />
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/handoverActivityServicesListTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/handoverActivityTakeoverAgencyTV"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/activityhandover_takeover_agency"/>
+
+            <EditText
+                android:id="@+id/handoverActivityTakeoverAgencyET"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:hint="@string/activityhandover_type_here"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/handoverActivityHandoverFormTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="@string/activityhandover_capture_images_of_the_form_below"/>
+
+        <ImageView
+            android:id="@+id/handoverActivityPhoto1IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"
+            />
+
+        <Button
+            android:id="@+id/handoverActivityForm1ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form (pg1)"/>
+
+        <ImageView
+            android:id="@+id/handoverActivityPhoto2IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"/>
+
+        <Button
+            android:id="@+id/handoverActivityForm2ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form (pg2)"/>
+
+        <ImageView
+            android:id="@+id/handoverActivityPhoto3IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"/>
+
+        <Button
+            android:id="@+id/handoverActivityForm3ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form (pg3)"/>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Enter your remarks below"/>
+
+        <EditText
+            android:id="@+id/handoverActivityRemarksTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="textMultiLine"
+            android:lines="2"
+            android:textColor="@color/black"
+            android:hint="@string/activityhandover_type_here"/>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/handoverActivitySaveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+
+        <Button
+            android:id="@+id/handoverActivityUploadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"/>
+
+    </LinearLayout>
+
+</ScrollView>

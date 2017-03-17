@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spottechnician.fencerv2.TakeoverActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/takeoverActivityPg3FormHeadingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Takeover Form Pg(3)"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/takeoverActivityPg3ServicesHeadingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Form Photos"
+            android:textAlignment="center"
+            />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/takeoverActivityPg3HandoverFormTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Capture images of the form below"/>
+
+        <ImageView
+            android:id="@+id/takeoverActivityPg3Photo1IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"
+            />
+
+        <Button
+            android:id="@+id/takeoverActivityPg3Form1ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form (pg1)"/>
+
+        <ImageView
+            android:id="@+id/takeoverActivityPg3Photo2IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"
+            />
+
+        <Button
+            android:id="@+id/takeoverActivityPg3Form2ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form (pg2)"/>
+
+
+        <ImageView
+            android:id="@+id/takeoverActivityPg3Photo3IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"
+            />
+
+        <Button
+            android:id="@+id/takeoverActivityPg3Form3ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form (pg3)"/>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/takeoverActivityPg3ATMTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Capture images of the ATM below"/>
+
+        <ImageView
+            android:id="@+id/takeoverActivityPg3ATMPhoto1IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"
+            />
+
+        <Button
+            android:id="@+id/takeoverActivityPg3ATM1ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signage Photo"/>
+
+        <ImageView
+            android:id="@+id/takeoverActivityPg3ATMPhoto2IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"
+            />
+
+        <Button
+            android:id="@+id/takeoverActivityPg3ATM2ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ATM Image 2"/>
+
+
+        <ImageView
+            android:id="@+id/takeoverActivityPg3ATMPhoto3IV"
+            style="@style/photoMenuIV"
+            android:onClick="imageClicked"
+            android:src="@drawable/ic_template"
+            />
+
+        <Button
+            android:id="@+id/takeoverActivityPg3ATM3ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ATM Image 3"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/takeoverActivityPg3SaveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+
+
+        <Button
+            android:id="@+id/takeoverActivityPg3UploadBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

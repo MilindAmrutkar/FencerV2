@@ -3,4 +3,9 @@
     <string name="daily_visit_report_home">Daily Visit Report</string>
     <string name="services_home">Services</string>
     <string name="punch_attendance_home">Punch Attendance</string>
+    <string name="activityhandover_handover_form_heading">Handover Form</string>
+    <string name="activityhandover_services_to_handover">Services to Handover</string>
+    <string name="activityhandover_takeover_agency">Takeover Agency</string>
+    <string name="activityhandover_type_here">Type here..</string>
+    <string name="activityhandover_capture_images_of_the_form_below">Capture images of the form below</string>
 </resources>
