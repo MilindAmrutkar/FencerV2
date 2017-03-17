@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="125dp"
         android:text="Add new site"
+        android:onClick="addNewSite"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
