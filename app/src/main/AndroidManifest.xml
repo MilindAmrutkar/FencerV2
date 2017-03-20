@@ -23,7 +23,8 @@
         <activity android:name=".TakeoverActivity1" />
         <activity android:name=".TakeoverActivity2" />
         <activity android:name=".TakeoverActivity3" />
-        <activity android:name=".AddNewSiteActivity"></activity>
+        <activity android:name=".AddNewSiteActivity" />
+        <activity android:name=".CTHKActivity"></activity>
     </application>
 
 </manifest>

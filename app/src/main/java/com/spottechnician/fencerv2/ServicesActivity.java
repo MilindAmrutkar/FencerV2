@@ -16,8 +16,13 @@ public class ServicesActivity extends AppCompatActivity {
 
     public void HOTOActivity(View view) {
         //Intent intent = new Intent(getApplicationContext(), HandoverActivity.class);
-        //Intent intent = new Intent(getApplicationContext(), TakeoverActivity2.class);
-        Intent intent = new Intent(getApplicationContext(), HOTOActivity.class);
+        Intent intent = new Intent(getApplicationContext(), TakeoverActivity2.class);
+        //Intent intent = new Intent(getApplicationContext(), HOTOActivity.class);
+        startActivity(intent);
+    }
+
+    public void openCTHKActivity(View view) {
+        Intent intent = new Intent(getApplicationContext(), CTHKActivity.class);
         startActivity(intent);
     }
 }

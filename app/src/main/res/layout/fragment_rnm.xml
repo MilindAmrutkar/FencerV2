@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.spottechnician.fencerv2.RNMFragment">
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:textSize="30sp"
+        android:text="RNM Form"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/rnmFragmentPhoto1IV"
+        style="@style/photoMenuIV"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_template"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:text="Signage Photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/rnmFragmentPhoto2IV"
+        style="@style/photoMenuIV"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_template"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:text="RNM Photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+</LinearLayout>
